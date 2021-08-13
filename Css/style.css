@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2' , sans-serif;
+    text-transform: capitalize;
+
+}
+#header{
+    background-image: url(../images/back-img.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    background-color: yellow;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+nav ul li{
+  list-style-type: none;
+  padding: 16px 15px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    padding: 15px 15px;
+    font-weight: 15px;
+}
+
+nav ul li a:hover{
+    background-color:white;
+    
+}
+
+.menu-btn{
+    color: white;
+    font-size:  25px;
+    font-weight: bold;
+    display: none;
+
+}
+
+#click:checked ~ul{
+    left: 0%;
+}
+
+
+
+
+
+@media (max-width:567px){
+    #header{
+        height: 50vh;
+    }
+    nav{
+        background-color: transparent;
+    }
+    nav ul{
+        position: absolute;
+        left:-100%;
+        top: 0%;
+        display: block;
+        text-align: center;
+        width: 30%;
+        color: black;
+        background-color: yellow;
+        height: 52vh;
+        transition: 0.5s;
+        padding: 20px 20px;
+    
+        
+    }
+    
+
+    nav ul li a{
+        color: black;
+    }
+    nav ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    .menu-btn{
+        position: absolute;
+        z-index: 35;
+        display: block;
+        font-size: 2rem;
+        color: black;
+    } 
+
+    
+    
+   
+}
+h1{
+    text-align: center;
+    
+}
+
+.container{
+    margin: 2rem;
+}
+.card-img-top{
+    border-radius: 20px;
+    height: 80%;
+
+
+
+}
+.card
+{
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 2rem;
+    
+}
+
+.exampleform{
+
+    align-items: center;
+}
+
+.logo-img{
+    height: 5rem;
+}
+
+.section{
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+ 
+
+ .card-body{
+     text-align: center;
+ }
+
+ #contact{
+     padding:  10px 10px;
+ }
+
+ #about{
+     background-image: url(../images/back-img1.jpg);
+     background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ .form-label{
+     color: white;
+ }
+ .con{
+     color: white;
+ }
